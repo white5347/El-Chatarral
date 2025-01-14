@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Metales</title>
+    <link rel="stylesheet" href="compra de metales.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="chatarra.png" alt="Materiales reciclables" id="logo">
+            <div>
+                <h1>El Chatarral</h1>
+                <p class="lema">“Transformamos residuos en soluciones”</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="ventas.html" class="active">Ventas</a></li>
+                <li><a href="formulario.html" class="active">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="metales">
+            <h2>Venta de Metales</h2>
+            <div class="metal" id="cobre">
+                <img src="Cobre.png" alt="Cobre" class="metal-img">
+                <h3>Cobre - $150/kg</h3>
+                <label for="cantidadCobre">Cantidad (kg):</label>
+                <input type="number" id="cantidadCobre" min="0" step="0.1">
+                <button onclick="calcularTotal('cobre', 150, 'totalCobre')">Calcular</button>
+                <p>Total: $<span id="totalCobre">0.00</span></p>
+            </div>
+
+            <div class="metal" id="aluminio">
+                <img src="Aluminio.png" alt="Aluminio" class="metal-img">
+                <h3>Aluminio - $80/kg</h3>
+                <label for="cantidadAluminio">Cantidad (kg):</label>
+                <input type="number" id="cantidadAluminio" min="0" step="0.1">
+                <button onclick="calcularTotal('aluminio', 80, 'totalAluminio')">Calcular</button>
+                <p>Total: $<span id="totalAluminio">0.00</span></p>
+            </div>
+
+            <div class="metal" id="hierro">
+                <img src="Hierro y Fierro Viejo.png" alt="Hierro" class="metal-img">
+                <h3>Hierro y Fierro Viejo - $50/kg</h3>
+                <label for="cantidadHierro">Cantidad (kg):</label>
+                <input type="number" id="cantidadHierro" min="0" step="0.1">
+                <button onclick="calcularTotal('hierro', 50, 'totalHierro')">Calcular</button>
+                <p>Total: $<span id="totalHierro">0.00</span></p>
+            </div>
+
+            <div class="metal" id="acero">
+                <img src="Acero Inoxidable.png" alt="Acero" class="metal-img">
+                <h3>Acero Inoxidable - $120/kg</h3>
+                <label for="cantidadAcero">Cantidad (kg):</label>
+                <input type="number" id="cantidadAcero" min="0" step="0.1">
+                <button onclick="calcularTotal('acero', 120, 'totalAcero')">Calcular</button>
+                <p>Total: $<span id="totalAcero">0.00</span></p>
+            </div>
+
+            <div class="metal" id="bronce">
+                <img src="Bronce.png" alt="Bronce" class="metal-img">
+                <h3>Bronce - $140/kg</h3>
+                <label for="cantidadBronce">Cantidad (kg):</label>
+                <input type="number" id="cantidadBronce" min="0" step="0.1">
+                <button onclick="calcularTotal('bronce', 140, 'totalBronce')">Calcular</button>
+                <p>Total: $<span id="totalBronce">0.00</span></p>
+            </div>
+
+            <div class="metal" id="plomo">
+                <img src="Plomo.png" alt="Plomo" class="metal-img">
+                <h3>Plomo - $60/kg</h3>
+                <label for="cantidadPlomo">Cantidad (kg):</label>
+                <input type="number" id="cantidadPlomo" min="0" step="0.1">
+                <button onclick="calcularTotal('plomo', 60, 'totalPlomo')">Calcular</button>
+                <p>Total: $<span id="totalPlomo">0.00</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 El Chatarral. Todos los derechos reservados.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <i class="fab fa-youtube"></i> YouTube
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="compra de metales.js"></script>
+</body>
+</html>

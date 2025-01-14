@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4a2c23; /* Marrón oscuro */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #f4a261; /* Naranja oxidado */
+}
+
+header .lema {
+    font-style: italic;
+    margin-top: 5px;
+    color: #e9c46a; /* Amarillo claro */
+}
+
+header #logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Barra de navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e9c46a; /* Amarillo claro */
+}
+
+/* Sección principal del blog */
+.blog-posts {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog-posts article {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-posts h2 {
+    font-size: 2.5em;
+    color: #4a2c23;
+    margin-bottom: 1em;
+}
+
+.blog-posts .contenido {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+    max-height: 4.6em; /* Solo muestra un fragmento limitado de texto */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blog-posts .contenido-adicional {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    display: none; /* Oculta el contenido adicional por defecto */
+}
+
+.blog-posts button {
+    background-color: #4a2c23;
+    color: white;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.blog-posts button:hover {
+    background-color: #e9c46a; /* Amarillo claro */
+}
+
+/* Footer */
+footer {
+    background-color: #4a2c23; /* Marrón oscuro */
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+footer .footer-content p {
+    margin: 0;
+    font-size: 1.2em;
+}

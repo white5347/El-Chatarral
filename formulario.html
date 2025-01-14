@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Chatarral - Formulario de Compra</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <img src="chatarra.png" alt="Materiales reciclables" id="logo">
+            <div>
+                <h1>El Chatarral</h1>
+                <p class="lema">“Transformamos residuos en soluciones”</p>
+            </div>
+        </div>
+        <!-- Barra de navegación -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="compra de metales.html" class="active">Compra</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formulario de Compra de Chatarra -->
+    <main>
+        <section id="compra-chatarra">
+            <h2>Formulario de Compra de Chatarra</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" id="ciudad" name="ciudad" required>
+                </div>
+                <div class="form-group">
+                    <label for="toneladas">Toneladas a vender</label>
+                    <input type="number" id="toneladas" name="toneladas" required>
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Descripción/Detalles</label>
+                    <textarea id="descripcion" name="descripcion" rows="4" maxlength="500" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="razon-social">Razón Social</label>
+                    <input type="text" id="razon-social" name="razon-social">
+                </div>
+                <div class="form-group">
+                    <label for="archivo">Cargar fotos de chatarra</label>
+                    <input type="file" id="archivo" name="archivo">
+                    <p>Máximo 1 fichero, límite de 200 MB, tipos permitidos: gif, jpg, png, svg.</p>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="terminos" required> Acepto los términos de aviso de privacidad y tratamiento de datos
+                    </label>
+                </div>
+                <button type="submit" id="enviar-formulario">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,276 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4a2c23; /* Marrón oscuro */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #f4a261; /* Naranja oxidado */
+}
+
+header .lema {
+    font-style: italic;
+    margin-top: 5px;
+    color: #e9c46a; /* Amarillo claro */
+}
+
+header #logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Barra de navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e9c46a; /* Amarillo claro */
+}
+
+/* Primera imagen debajo del header */
+.imagen-dchatarra {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagen-dchatarra img {
+    width: 80%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección principal */
+section#inicio {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.descripcion {
+    width: 60%;
+    text-align: left;
+}
+
+.descripcion p {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #4a2c23; /* Marrón oscuro */
+}
+
+/* Segunda imagen debajo de la descripción */
+.imagen-chatarra {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagen-chatarra img {
+    width: 80%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Contenedor para la imagen de la garra y la sección de servicios */
+.contenedor-servicios {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+/* Estilo para la imagen de la garra */
+.imagen-garra {
+    width: 40%;
+}
+
+.imagen-garra img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para la sección de servicios */
+.servicios {
+    width: 55%;
+    padding-left: 20px;
+}
+
+.servicios h2 {
+    font-size: 2em;
+    color: #4a2c23; /* Marrón oscuro */
+    margin-bottom: 1em;
+}
+
+.servicios p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #4a2c23; /* Marrón oscuro */
+}
+
+.servicios ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.servicios li {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Sección de Productos */
+#productos {
+    padding: 2em;
+    background-color: #f4f4f4;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+#productos h2 {
+    font-size: 2.5em;
+    color: #4a2c23; /* Marrón oscuro */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Contenedor de los productos */
+.productos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Estilo para cada producto */
+.producto {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos de los productos */
+.producto h3 {
+    font-size: 1.8em;
+    color: #4a2c23; /* Marrón oscuro */
+    margin-bottom: 10px;
+}
+
+/* Estilo de las listas de productos */
+.producto ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.producto li {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #4a2c23; /* Marrón oscuro */
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+footer .footer-content p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+footer .social-media {
+    margin-top: 1em;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+footer .social-media a:hover {
+    color: #e9c46a; /* Amarillo claro */
+}
+footer .social-media {
+    margin-top: 1em;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.5em;
+    display: inline-flex;
+    align-items: center;
+}
+
+footer .social-media a i {
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+}
+
+footer .social-media a:hover {
+    color: #e9c46a; /* Amarillo claro */
+} 

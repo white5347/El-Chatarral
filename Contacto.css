@@ -1,0 +1,154 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #4a2c23;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #f4a261;
+}
+
+header .lema {
+    font-style: italic;
+    margin-top: 5px;
+    color: #e9c46a;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a.active {
+    border-bottom: 2px solid #e9c46a;
+}
+
+nav a:hover {
+    color: #e9c46a;
+}
+
+/* Contenido principal */
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #4a2c23;
+    margin-bottom: 1em;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Información de contacto */
+.info-contacto {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+    text-align: center;
+}
+
+.info-contacto .detalle {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.info-contacto h3 {
+    color: #4a2c23;
+}
+
+.info-contacto p {
+    color: #333;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    color: #4a2c23;
+}
+
+form input, form textarea {
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4a2c23;
+    color: white;
+    padding: 0.8em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e9c46a;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Informativo - El Chatarral</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="chatarra.png" alt="Materiales reciclables" id="logo">
+            <div>
+                <h1>El Chatarral</h1>
+                <p class="lema">“Transformamos residuos en soluciones”</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="formulario.html" class="active">Formulario</a></li>
+                <li><a href="compra de metales.html" class="active">Compra</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-posts">
+            <article id="post-1">
+                <h2>Tips para reciclar metales en casa</h2>
+                <p class="contenido">Descubre formas sencillas de separar y clasificar metales en tu hogar. Esto no solo contribuye al medio ambiente, sino que también puede generar ingresos adicionales.</p>
+                <div class="contenido-adicional">
+                    <p>Reciclar metales en casa puede ser una excelente manera de reducir el desperdicio y ganar un pequeño ingreso extra. Puedes comenzar con materiales comunes como latas de aluminio, cobre en cables viejos, e incluso chatarra de hierro. Asegúrate de separar los metales por tipo y limpiarlos antes de venderlos, ya que esto puede aumentar su valor. Existen centros de reciclaje que compran estos materiales y te pagan según su peso y calidad. Es importante también saber qué metales no se deben reciclar en casa, como los que tienen residuos peligrosos...</p>
+                </div>
+                <button class="leer-mas" onclick="leerMas('post-1')">Leer más</button>
+            </article>
+
+            <article id="post-2">
+                <h2>La importancia del reciclaje en la economía</h2>
+                <p class="contenido">El reciclaje de metales juega un papel crucial en la sostenibilidad económica, ahorrando energía y recursos.</p>
+                <div class="contenido-adicional">
+                    <p>Reciclar metales no solo es beneficioso para el medio ambiente, sino que también tiene un impacto significativo en la economía global. Cuando reciclamos metales, como el aluminio y el cobre, se requieren menos recursos y energía que si se produjeran nuevos metales a partir de los minerales. Esto no solo reduce la huella de carbono, sino que también disminuye los costos operativos de las industrias que dependen de estos metales. Además, el reciclaje crea empleos en la recolección, clasificación y procesamiento de materiales reciclables...</p>
+                </div>
+                <button class="leer-mas" onclick="leerMas('post-2')">Leer más</button>
+            </article>
+
+            <article id="post-3">
+                <h2>Cómo identificar metales y su valor en el mercado</h2>
+                <p class="contenido">Aprende a distinguir entre diferentes tipos de metales y conoce cómo se valoran en el mercado actual.</p>
+                <div class="contenido-adicional">
+                    <p>Existen muchos tipos de metales, y es crucial poder identificarlos correctamente para saber cómo reciclarlos y obtener el mejor valor por ellos. El cobre es uno de los metales más valiosos, especialmente el cobre rojo, que es altamente demandado en la industria eléctrica y de construcción. El aluminio también es muy valioso, aunque su precio suele ser más bajo que el del cobre, es un material ligero y fácil de reciclar. Por otro lado, metales como el acero inoxidable o el bronce también tienen su mercado, aunque es importante saber distinguirlos bien...</p>
+                </div>
+                <button class="leer-mas" onclick="leerMas('post-3')">Leer más</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 El Chatarral. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="blog.js"></script>
+</body>
+</html>

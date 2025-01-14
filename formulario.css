@@ -1,0 +1,207 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4a2c23; /* Marrón oscuro */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #e9c46a; /* Amarillo claro */
+}
+
+header .lema {
+    font-style: italic;
+    margin-top: 5px;
+    color: #bbb; /* Gris suave */
+}
+
+header #logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Barra de navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e9c46a; /* Amarillo claro */
+}
+
+/* Sección de Formulario de Compra de Chatarra */
+#compra-chatarra {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+}
+
+#compra-chatarra h2 {
+    font-size: 2.5em;
+    color: #4a2c23; /* Marrón oscuro */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Estilos de los formularios */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    display: block;
+    color: #4a2c23; /* Marrón oscuro */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.form-group input[type="file"] {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+/* Estilo del botón de envío */
+button[type="submit"] {
+    background-color: #e9c46a; /* Amarillo claro */
+    color: black;
+    font-size: 1.2em;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #4a2c23; /* Marrón oscuro */
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Botones secundarios en el formulario (transparentes y subrayados) */
+button[type="button"] {
+    background-color: transparent;
+    color: #4a2c23; /* Marrón oscuro */
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button[type="button"]:hover {
+    color: #e9c46a; /* Amarillo claro */
+    transform: scale(1.05);
+}
+
+/* Estilos generales del formulario */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    border: 1px solid #bbb;
+    background-color: #f5f5f5;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #4a2c23;
+}
+
+p {
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}

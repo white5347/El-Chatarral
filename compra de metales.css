@@ -1,0 +1,155 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4a2c23; /* Marrón oscuro */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #f4a261; /* Naranja oxidado */
+}
+
+header .lema {
+    font-style: italic;
+    margin-top: 5px;
+    color: #e9c46a; /* Amarillo claro */
+}
+
+header #logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Barra de navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e9c46a; /* Amarillo claro */
+}
+
+/* Sección de metales */
+.metal {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.metal:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.metal-img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.metal-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botones */
+button {
+    background-color: #f4a261; /* Naranja oxidado */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e9c46a; /* Amarillo claro */
+}
+
+/* Footer */
+footer {
+    background-color: #4a2c23; /* Marrón oscuro */
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .footer-content p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+footer .social-media {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: inline-flex;
+    align-items: center;
+}
+
+footer .social-media a i {
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+}
+
+footer .social-media a:hover {
+    color: #e9c46a; /* Amarillo claro */
+}

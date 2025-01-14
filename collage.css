@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4a2c23; /* Marrón oscuro */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #f4a261; /* Naranja oxidado */
+}
+
+header .lema {
+    font-style: italic;
+    margin-top: 5px;
+    color: #e9c46a; /* Amarillo claro */
+}
+
+header #logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Barra de navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e9c46a; /* Amarillo claro */
+}
+
+/* Contenedor del Collage */
+#collage {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.media-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.media {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #4a2c23; /* Marrón oscuro */
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+footer .footer-content p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+footer .social-media {
+    margin-top: 1em;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.5em;
+    display: inline-flex;
+    align-items: center;
+}
+
+footer .social-media a i {
+    margin-right: 8px; /* Espacio entre el icono y el texto */
+}
+
+footer .social-media a:hover {
+    color: #e9c46a; /* Amarillo claro */
+}
